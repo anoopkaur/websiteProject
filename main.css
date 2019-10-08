@@ -1,5 +1,5 @@
 *{
-    background-color: aquamarine;
+    background-color: 
     font-size: 19px;
 
     box-sizing: border-box;
@@ -8,16 +8,23 @@
 
 
 body {
-    background-color:rgb(217, 255, 255);
+    background-image:url("images/blueMarble\ .jpg");
+    background-repeat: repeat;
 }
 
 h1 {
-    color: fuchsia;
-    font-size: 30px;
+    color: rgb(0, 102, 153);
+    font-size: 40px;
 }
 
+h2{
+     color: rgb(0, 102, 153);
+}
+
+
+
 .firstText{
-    color: brown; 
+    colorL ; 
     background-color: papayawhip;
 }
 

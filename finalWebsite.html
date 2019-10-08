@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,48 +9,79 @@
   </head>
   <body>
     <div>
-      <h1>Anoop's website</h1>
-      <h2>Welcome!</h2>
-      <p>Continue reading to find out more about me</p>
+      <h1 align = 'center'>Anoop's website</h1> 
     </div>
 
-    <div>
-      <h3>Click below to find out more...</h3>
+
+    <div class = 'tablink'>  
+        <button class = "tablink" onclick = "openPage('About me')">About me</button>
+        <button class = "tablink" onclick = "openPage('Employment History')">Employment History</button>
+        <button class = "tablink" onclick = "openPage('My hobbies')">My hobbies</button>
+        <button class = "tablink" onclick = "openPage('My Journey into Coding')">My Journey into Coding</button>
+        <button class = "tablink" onclick = "openPage('Future Goals')">Future Goals</button>
+    </div>
+    
+    <div id = 'About me' class = 'tablink'>
+      <h3>A bit about me...</h3>
+      <p>
+          I grew up in Bedfordshire where I attended school and sixth form.
+          Subsequently after school I studied biomedical science in the University
+          of Kent. Some of my favourite hobbies are Salsa dancing, gymming and
+          eating
+      </p>
+    </div>
+
       <ul>
         <li>My background</li>
-        <li>How I got into coding</li>
-        <li>Why Code Nation?</li>
+        <li>Employment history</li>
+        <li>My hobbies</li>
+        <li>My Journey into Coding</li>
+        <li>Future Goals</li>
       </ul>
     </div>
 
     <div>
       <h4>My background</h4>
       <p>
-        I grew up in Bedfordshire where I attended school and sixth form.
-        Subsequently after school I studied biomedical science in the University
-        of Kent. Some of my favourite hobbies are Salsa dancing, gymming and
-        eating
+        
       </p>
     </div>
 
     <div>
-      <h5>How I got into coding?</h5>
+      <h5>Employment History</h5>
       <p>
-        In this day and age it's safe to say virtually every industry requires
-        computers! Learning how to code is imperative to adapt and learn the
-        tools to be able to contribute to society, this is one of the main
-        reasons I got into coding and technology. Another reason is the coder's
-        high solving a hard problem brings!!!
       </p>
     </div>
-    <h6>Why Code Nation?</h6>
-    <p>
-    ....
-    </p>
 
-    <h5>Last heading</h5>
+    <div>
+        <h6> My Hobbies</h6>
+        <p>
+        ....
+        </p>
+    </div>
+
+    <div id = 'My Journey into Coding' class = 'tablink'>
+      <h7>Why I got into coding</h7>
+    <p>
+      In this day and age it's safe to say virtually every industry requires
+      computers! Learning how to code is imperative to adapt and learn the
+      tools to be able to contribute to society, this is one of the main
+      reasons I got into coding and technology. Another reason is the coder's
+      high solving a hard problem brings!!! + code nation stuffs here. 
+    </p>  
+    </div>
+    
+    <div> 
+      <h8>My future goals</h8>
+      <p>
+        ... 
+      </p>
+    </div>
   </body>
-  </body>
+
+
+
 </html>
+
 
 
