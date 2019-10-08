@@ -1,33 +1,33 @@
-*{
-    background-color: 
-    font-size: 19px;
-
-    box-sizing: border-box;
-    padding:25px;
+body {
+  background-image: url(images/pinkBackground.jpeg);
+  background-repeat: repeat;
+  text-align: center;
 }
 
-
-body {
-    background-image:url("images/blueMarble\ .jpg");
-    background-repeat: repeat;
+button {
+  border-radius: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px 40px;
 }
 
 h1 {
-    color: rgb(0, 102, 153);
-    font-size: 40px;
+  color: rosybrown;
+  font-size: 40px;
 }
 
-h2{
-     color: rgb(0, 102, 153);
+h2 {
+  color: rgb(0, 102, 153);
 }
 
-
-
-.firstText{
-    colorL ; 
-    background-color: papayawhip;
+.subheadingText {
+  color: pink;
 }
 
-img {
-    width:50;
+.section {
+  background-color: white;
+  margin: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 5px solid red;
 }
