@@ -40,3 +40,19 @@ h2 {
   border: 5px black;
   /* box-shadow: 500px 1000px; */
 }
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
