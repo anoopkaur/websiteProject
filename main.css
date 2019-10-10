@@ -2,7 +2,7 @@
 body {
   background-color: rgb(208,208,208); 
   text-align: center; 
-  /* font: 80% georgia, sans-serif; */
+  font: 90% georgia, sans-serif; 
   line-height: 2;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,11 +10,12 @@ body {
 	}
 
 button {
+  /* background-image:; */
   border-radius: 100px;
   margin-left: 10px;
   margin-right: 10px;
   padding: 20px 40px;
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -33,26 +34,20 @@ h2 {
 }
 
 .section {
-  /* background-color: rgb(250, 222, 214); */
-  margin: 150px;
+  /* background-image: url("images/brushStroke.jpg"); 
+  background-size: cover; */
+  text-align: center;
+  margin: 15px;
   padding-top: 50px;
-  padding-bottom: 50px;
-  border: 5px black;
-  /* box-shadow: 500px 1000px; */
+  padding-bottom: 10px;
+
 }
 
 .timeline {
-  position: relative;
+  position: absolute;
   max-width: 1200px;
   margin: 0 auto;
-}
+  margin-top: 20px;
+  padding: 1em 0;
 
-.container::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
+}
