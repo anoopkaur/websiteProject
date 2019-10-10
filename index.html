@@ -5,31 +5,37 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Anoop's website</title>
   </head>
 
   <body>
-    <div>
+    <div class="header">
       <h1>Anoop's Portfolio</h1>
+      <div class="buttonsContainer">
+        <button><a href="#aboutMe">About me</a></button>
+        <button><a href="#employmentHistory">Employment History</a></button>
+        <button><a href="#myJourneyIntoCoding">My Journey into Coding</a></button>
+        <button><a href= "#futureGoals">My Future Goals</a></button>
+        <button><a href= "#assessmentQuestions">Assessment Questions</a></button>
+      </div>
     </div>
 
-    <div>
-      <button><a href="#aboutMe">About me</a></button>
-      <button><a href="#employmentHistory">Employment History</a></button>
-      <button><a href="#myJourneyIntoCoding">My Journey into Coding</a></button>
-      <button><a href= "#futureGoals">My Future Goals</a></button>
-      <button><a href= "#assessmentQuestions">Assessment Questions</a></button>
-    </div>
+    <button id="highFiveCount" onclick="highFive()">Give me a high 5!</button>
 
     <div class="section">
       <h2 id="aboutMe">A bit about me...</h2>
-      <p class="subheadingText">
-        I grew up in Bedfordshire where I attended school and sixth form. Initially I was on track to study a law at university, however after undertaking work experience in a firm
-        I decided to switch field to Biomedical science. Throughout my degree I have learnt various lab testing techniques, my final dissertation was on the effectivenss of monoclonal antibodies in treating autoimmune disorders. 
-        On the weekends and in my spare time I dance salsa and bachata, and currently am one belt away from a black belt in karate.
-        <img src="images/me.jpg" alt="Anoop">
-      </p>
+      <div class="sectionProfileDetailsContainer">
+        <p class="subheadingText">
+          I grew up in Bedfordshire where I attended school and sixth form. Initially I was on track to study a law at university, however after undertaking work experience in a firm
+          I decided to switch field to Biomedical science. Throughout my degree I have learnt various lab testing techniques, my final dissertation was on the effectivenss of monoclonal antibodies in treating autoimmune disorders. 
+          On the weekends and in my spare time I dance salsa and bachata, and currently am one belt away from a black belt in karate.
+        </p>
+        <img class="profilePic" src="images/me.jpg" alt="Anoop">
       </div>
+      
+    </div>
     
 
     <div class="section">
@@ -85,12 +91,32 @@
       </p>
     </div>
 
+    <div id="assessmentQuestions" class = "assessmentQuestionSection">
+      <h2 class="assessmentQuestionsTitle">Assessment questions</h2>
+      <div class="assessmentQuestionsContainer">
+        <!-- Everything in this container becomes scrollable 
+          if we surpass 200px in height -->
 
-<div class = "section">
-  <h2 id="assessmentQuestions">Assessment questions</h2>
-  <p class= "subheadingText">
-    Here are my assessment questions... 
-    </p>
-</div>
+          <h3>What’s the purpose of IT in modern business?</h3>
+          <p>IT plays a crucial role in modern business, this is because it enables efficient communication with customers. Good customer relations generates a more reliable public image. Through business operating digitally, customers are able to access information whenever they require it, thus avoiding a backlog of calls to the business. IT systems support communication between employees who could be in different areas, enabling smoother business operations. Communication platforms such as Skype for business and slack help to reduce formality between employees, this can contribute to a better workplace environment. A major benefit for a business with digital platforms in place are that geographical location of consumers no longer becomes a limiting factor. 
+          </p>
+
+          <h3>Question 2</h3>
+          <p>This is the first assessment Q bla bla bla</p>
+
+          <h3>Question 3</h3>
+          <p>This is the first assessment Q bla bla bla</p>
+
+          <h3>Question 4</h3>
+          <p>This is the first assessment Q bla bla bla</p>
+
+          <h3>Question 5</h3>
+          <p>This is the first assessment Q bla bla bla</p>
+
+          <h3>Question 6</h3>
+          <p>This is the first assessment Q bla bla bla</p>
+      </div>
+    </div>
+
   </body>
 </html>
