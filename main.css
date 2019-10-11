@@ -1,7 +1,6 @@
 body {
-  background-color: rgb(208, 208, 208);
+  background-color: rgb(223,225,222);
   text-align: center;
-  font: 90% georgia, sans-serif;
   font-family: Dosis;
   line-height: 2;
   background-position: center;
@@ -14,10 +13,11 @@ button {
   border-radius: 100px;
   padding: 20px 40px;
   font-size: 14px;
+  font-family: Dosis;
 }
 
 button:hover {
-  background-color: black;
+  background-color: pink;
 }
 
 a {
@@ -30,23 +30,23 @@ a:hover {
 
 h1 {
   color: black;
-  font-size: 40px;
+  font-size: 50px;
   font: "Century Gothic";
 }
 
 h2 {
   color: black;
+  font-size: 31px;
 }
 
 .subheadingText {
   color: black;
   padding-left: 50px;
   padding-right: 50px;
+  font-size: 20px;
 }
 
 .section {
-  /* background-image: url("images/brushStroke.jpg"); 
-  background-size: cover; */
   text-align: center;
   margin: 15px;
   padding-top: 50px;
@@ -57,6 +57,7 @@ h2 {
   border-radius: 50%;
   height: 300px;
   width: 280px;
+  box-shadow: 0px 0px 8px 8px rgb(252,237,233);
 }
 
 .sectionProfileDetailsContainer {
@@ -69,7 +70,8 @@ h2 {
 .header {
   position: sticky;
   top: 0;
-  background-color: darkgrey;
+  /* background-color: darkgrey; */
+  background-image:url(images/pinkGreyMarble.jpg);
   padding-bottom: 20px;
 }
 
@@ -88,6 +90,7 @@ h2 {
   height: 200px;
   overflow-y: scroll;
   padding: 40px;
+  background-color:rgb(253,239,231);
   border: 2px double grey;
 }
 
@@ -101,6 +104,10 @@ h2 {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: black;
-  color: pink;
+  background-color:rgb(252,237,233);
+  color:black;
+}
+
+.timeline {
+  font-size: 30px;
 }
